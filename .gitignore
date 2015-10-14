@@ -2,3 +2,5 @@ App.config
 obj/
 bin/
 CSharpParadigms.sln
+.vs/
+CSharpParadigms.csproj.user
