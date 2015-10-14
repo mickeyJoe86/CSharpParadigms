@@ -1,0 +1,6 @@
+C:\Users\mike.ward\Dev\CSharpParadigms\bin\Debug\CSharpParadigms.exe.config
+C:\Users\mike.ward\Dev\CSharpParadigms\bin\Debug\CSharpParadigms.exe
+C:\Users\mike.ward\Dev\CSharpParadigms\bin\Debug\CSharpParadigms.pdb
+C:\Users\mike.ward\Dev\CSharpParadigms\obj\Debug\CSharpParadigms.csprojResolveAssemblyReference.cache
+C:\Users\mike.ward\Dev\CSharpParadigms\obj\Debug\CSharpParadigms.exe
+C:\Users\mike.ward\Dev\CSharpParadigms\obj\Debug\CSharpParadigms.pdb
