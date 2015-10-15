@@ -43,15 +43,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections\Arrays.cs" />
+    <Compile Include="Collections\Collections.cs" />
+    <Compile Include="Collections\Dictionaries.cs" />
+    <Compile Include="Collections\Item.cs" />
+    <Compile Include="Collections\Lists.cs" />
+    <Compile Include="Collections\Queues.cs" />
+    <Compile Include="Collections\Stacks.cs" />
+    <Compile Include="Collections\State.cs" />
+    <Compile Include="Dynamic\DynamicTutorial.cs" />
+    <Compile Include="Dynamic\DynamicTypes.cs" />
+    <Compile Include="Dynamic\Expando.cs" />
+    <Compile Include="Dynamic\ParseXMLWithExpando.cs" />
+    <Compile Include="LINQ\ExtensionMethods.cs" />
+    <Compile Include="LINQ\FuncFilter.cs" />
+    <Compile Include="LINQ\LambdaFilter.cs" />
+    <Compile Include="LINQ\LINQTutorial.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Collections\README.md" />
+    <None Include="Dynamic\README.md" />
+    <None Include="LINQ\README.md" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="Dynamic\Employees.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
