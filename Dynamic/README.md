@@ -15,5 +15,6 @@ Errors for missing or misspelled member will not throw a Compiler error, but wil
 
 5. Dynamic Object more powerful than Expando, because it contains more overrides inside that can be used to influence how it behaves at runtime.
 
-6. DLR Allows for Interop with Languages like IronRuby, IronPython, Clojure
+6. DLR Allows for Interop with Languages like IronRuby, IronPython, Clojure.  Works by creating scope to pass variables and objects to various Language engines to be consumed by those languages.
+
 

@@ -51,6 +51,10 @@
     <Compile Include="Collections\Queues.cs" />
     <Compile Include="Collections\Stacks.cs" />
     <Compile Include="Collections\State.cs" />
+    <Compile Include="Delegates\BlogPoster.cs" />
+    <Compile Include="Delegates\DelegateRepo.cs" />
+    <Compile Include="Delegates\Document.cs" />
+    <Compile Include="Delegates\EmailSender.cs" />
     <Compile Include="Dynamic\DynamicTutorial.cs" />
     <Compile Include="Dynamic\DynamicTypes.cs" />
     <Compile Include="Dynamic\Expando.cs" />
@@ -67,6 +71,7 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Collections\README.md" />
+    <None Include="Delegates\README.md" />
     <None Include="Dynamic\README.md" />
     <None Include="LINQ\README.md" />
     <None Include="README.md" />

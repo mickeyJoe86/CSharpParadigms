@@ -1,7 +1,7 @@
 C# Acompendium: *A Deeper Look into CSharp*
 ===========================================
 
-| **Topics**                      |
+| **Topics Include**                      |
 |:----------------                |
 | **Collections**                 |
 | **Object Oriented Programming** |

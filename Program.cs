@@ -1,4 +1,5 @@
-﻿using CSharpParadigms.Dynamic;
+﻿using CSharpParadigms.Delegates;
+using CSharpParadigms.Dynamic;
 using CSharpParadigms.LINQ;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,8 @@ namespace CSharpParadigms
         {
             //ExecuteCollectionMethods();
             //ExecuteLINQMethods();
-            ExecuteDynamicMethods();
+            //ExecuteDynamicMethods();
+            ExecuteDelegateMethods();
 
             Console.ReadLine();
         }
@@ -42,5 +44,11 @@ namespace CSharpParadigms
             Collections.ExecuteDictionaries();
             Collections.PrintStateCapital();
         }
+
+        public static void ExecuteDelegateMethods()
+        {
+            DelegateRepo.SendMailAlert();
+        }
+
     }
 }
